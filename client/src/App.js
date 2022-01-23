@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import User from './components/User'
+import Home from './components/Home'
 
 export default function App () {
   const [username, setUsername] = useState('')
@@ -10,6 +11,7 @@ export default function App () {
   return (
     <div className='App'>
       <User header={header} />
+      <Home />
     </div>
   )
 }
