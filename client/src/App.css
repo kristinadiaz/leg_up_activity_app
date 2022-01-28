@@ -4,3 +4,8 @@ nav {
   border-bottom: 2px solid rgb(128, 128, 128);
   margin-bottom: 2em;
 }
+
+.background {
+  background: url(./images/yoga.jpeg);
+  background-repeat: "no-repeat";
+}
